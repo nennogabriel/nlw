@@ -1,0 +1,10 @@
+@host = http://localhost:3333
+
+### Count the number of users
+GET {{host}}/users/count
+
+### Get the number of guesses
+GET {{host}}/guesses/count
+
+### Get the number of pools
+GET {{host}}/pools/count
